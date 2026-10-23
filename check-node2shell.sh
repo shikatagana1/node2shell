@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# node2shell check: 0 = not vulnerable, 1 = vulnerable, 2 = can't tell
+# CVE-2026-111497 (node2shell) check: 0 = not vulnerable, 1 = vulnerable, 2 = can't tell
 
 node <<'EOF'
 const z = require('zlib'), cp = require('child_process'), cr = require('crypto');
